@@ -1,13 +1,17 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
+
 
 const LoginForm = () => {
   return (
-    <div className="login-form">
+    <form className="login-form">
       <h3 className="login-title">Log In</h3>
       <input type="text" placeholder="Username" />
       <input type="password" placeholder="Password" />
-      <button id="myButton">Login</button>
-    </div>
+      <Button  className="btn btn-success"variant="danger">Log In</Button>
+    </form>
+   
+
   );
 };
 
