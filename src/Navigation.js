@@ -4,10 +4,10 @@ const Navigation = () => {
   return (
     <nav className="navbar">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Beer:30</a></li>
+        <li><a href="#" className="removeLink">Home</a></li>
+        <li><a href="#" className="removeLink">About</a></li>
+        <li><a href="#" className="removeLink">Contact</a></li>
+        <li><a href="#" className="removeLink">Beer:30</a></li>
 
       </ul>
     </nav>
